@@ -1,0 +1,14 @@
+/**
+ * @ Create Time: 2025-11-15 22:19:05
+ * @ Modified time: 2025-11-17 00:38:21
+ */
+
+
+| Algorithm      | Personality               | How it Works                 | Speed          |
+| -------------- | ------------------------- | ---------------------------- | -------------- |
+| Bubble Sort    | Gossiping Neighbors       | Keep swapping adjacent ones  | O(n²)          |
+| Selection Sort | Strict Teacher            | Find smallest → put in front | O(n²)          |
+| Insertion Sort | Diary Student             | Insert one at a time         | O(n²)          |
+| Merge Sort     | Divide-and-Unite Magician | Split → merge                | O(n log n)     |
+| Quick Sort     | Smart Leader              | Pivot → left/right groups    | O(n log n) avg |
+| Heap Sort      | Strict Parent             | Build heap → extract max     | O(n log n)     |
