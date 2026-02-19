@@ -1,6 +1,6 @@
 '''
  # @ Create Time: 2026-02-17 21:45:14
- # @ Modified time: 2026-02-19 00:58:34
+ # @ Modified time: 2026-02-19 17:42:33
  '''
 
 
@@ -148,6 +148,54 @@ def daily_temp(arr):
             result[index] = i - index
         stack.append(i)
     return result
-arr = [73,74,75,71,69,72,76,73]
-res = daily_temp(arr)
-print(res)
+# arr = [73,74,75,71,69,72,76,73]
+# res = daily_temp(arr)
+# print(res)
+
+def next_greater_element_I(nums1, nums2):
+    # --- Brute force solution ---
+    # res = [-1]*len(nums1)
+    # stack = []
+    # d = {}
+
+    # for i in range(len(nums1)):
+    #     for j in range(len(nums2)):
+    #         if nums1[i] == nums2[j]:
+    #             d[i] = j
+
+    # for i in d:
+    #     for k in range(d[i]+1, len(nums2)):
+    #         if nums2[k] > nums1[i]:
+    #             res[i] = nums2[k]
+    #             break
+    
+    # return res
+
+    # --- Ideal solution ---
+    # stack = []
+    # res = [-1]*len(nums1)
+    # mapping = {}
+
+    # for i in range(len(nums2)):
+    #     while stack and nums2[i] > stack[-1]:
+    #         val = stack.pop()
+    #         mapping[val] = nums2[i]
+    #     stack.append(nums2[i])
+    
+    # for i, num in enumerate(nums1):
+    #     if num in mapping:
+    #         res[i] = mapping[num]
+    # return res
+
+    # --- Optimized Ideal solution ---
+    mapping = {}
+    stack = []
+    for num in nums2:
+        while stack and stack[-1]< num:
+            mapping[stack.pop()] = num
+        stack.append(num)
+    return [mapping.get(num, -1) for num in nums1]
+
+nums1 = [4,1, 2]
+nums2 = [1,3,4,2]
+print(next_greater_element_I(nums1, nums2))
