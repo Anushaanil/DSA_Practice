@@ -1,6 +1,6 @@
 '''
  # @ Create Time: 2026-02-17 21:45:14
- # @ Modified time: 2026-02-19 17:42:33
+ # @ Modified time: 2026-02-22 00:18:51
  '''
 
 
@@ -198,4 +198,36 @@ def next_greater_element_I(nums1, nums2):
 
 nums1 = [4,1, 2]
 nums2 = [1,3,4,2]
-print(next_greater_element_I(nums1, nums2))
+# print(next_greater_element_I(nums1, nums2))
+
+def largest_rectangle_histogram(heights):
+    ma_area = 0
+    stack = []
+    pse = 0
+    nse = 0
+    
+    for i in range(len(heights)):
+        while stack and heights[stack[-1]] > heights[i]:
+            element = stack.pop()
+            nse = i
+            pse = -1 if not stack else stack[-1]
+            ma_area = max(ma_area, heights[element]*(nse-pse-1))
+        stack.append(i)
+    
+    while stack:
+        nse = len(heights)
+        element = stack.pop()
+        pse = -1 if not stack else stack[-1]
+        ma_area = max(ma_area, heights[element]*(nse-pse-1))
+ 
+    return ma_area
+
+heights = [3,2,10,11,5,10,6,3]
+# print(largest_rectangle_histogram(heights))
+
+def min_stack(arr):
+    # logic - 
+    # use 2 stacks 1 for storing all main elements another to keep track of min 
+    # and return it's [-1] from min stack also pop whenver main stack ele is popped
+    # so that we always have a min at that point.
+    return
