@@ -133,7 +133,89 @@ class TreeSolution:
 
         return self.isMirror(root.left, root.right)
     
+    def buildTreeInPost(self, inorder, postorder):
+
+        if not inorder:
+            return None
+        
+        inorder_map = {val:idx for idx, val in enumerate(inorder)}
+
+        root_val = postorder[-1]
+        root = TreeNode(root_val)
+
+        # idx = inorder.index(root_val)
+        idx = inorder_map[root_val]
+        left_inorder = inorder[:idx]
+        right_inorder = inorder[idx+1:]
+
+        left_postorder = postorder[:idx]
+        right_postorder = postorder[idx:-1]
+
+        print('order1 left', left_inorder, left_postorder)
+
+        root.left = self.buildTree(left_inorder, left_postorder)
+        print('left val', root.left.val if root.left else None)
+
+        print('order2 right', right_inorder, right_postorder)
+        root.right = self.buildTree(right_inorder, right_postorder)
+        print('right val', root.right.val if root.right else None)
+
+        return root
+    
+    def buildTreeInPre(self, preorder, inorder):
+        if not inorder:
+            return None
+        
+        inorder_map = {val:i for i, val in enumerate(inorder)}
+        pre_idx = 0
+
+        def helper(left, right):
+            nonlocal pre_idx
+
+            if left > right:
+                return None
+
+            root_val = preorder[pre_idx]
+            pre_idx+=1
+
+            root = TreeNode(root_val)
+            idx = inorder_map[root_val]
+
+            # build left subtree first
+            root.left = helper(left, idx-1)
+            root.right = helper(idx+1, right)
+
+            return root
+
+        return helper(0, len(preorder)-1)
+
+    def pathSum(self, root, remaining_target):
+        
+        if not root:
+            return False
+        
+        remaining_target = remaining_target - root.val
+        print('sum', remaining_target)
+
+        if not root.left and not root.right:
+            return remaining_target == 0
+        
+        l_sum = self.pathSum(root.left, remaining_target)
+        print('l', l_sum)
+
+        r_sum = self.pathSum(root.right, remaining_target)
+        print('r', r_sum)
+
+        return l_sum or r_sum
+        
+        
 t = TreeSolution()
+print(t.pathSum(root, 18))
+# tree = t.buildTreeInPre([3,9,20,15,7], [9,3,15,20,7])
+# t.printTree(tree)
+# print()
+
+
 # print(t.maxDepth(root))
 # print(t.leafCount(root))
 p = TreeNode(1)
@@ -167,4 +249,4 @@ l1.right = r2
 r1.left = l3
 r1.right = l3
 
-print(t.isSymmetric(p))
+# print(t.isSymmetric(p))
