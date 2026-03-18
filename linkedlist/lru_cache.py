@@ -1,8 +1,9 @@
 class Node:
-    def __init__(self, val=None, prev=None, next=None):
+    def __init__(self, key=None, val=None):
+        self.key = key
         self.val = val
-        self.prev = prev
-        self.next = next
+        self.prev = None
+        self.next = None
 
 class LRUCache:
     def __init__(self, capacity: int):
@@ -34,8 +35,8 @@ class LRUCache:
         next_node.prev = prev_node
 
     def get(self, key: int) -> int:
-        if key in self.key_map:
-            node = self.key_map[key]
+        node = self.key_map.get(key)
+        if node:
             self.delete_node(node)
             self.insert_after_head(node)
             print(node.val)
@@ -44,23 +45,28 @@ class LRUCache:
             return -1
 
     def put(self, key: int, value: int) -> None:
-        if key in self.key_map:
-            node = self.key_map[key]
+        if self.capacity == 0:
+            return
+        
+        node = self.key_map.get(key)
+        if node:
             node.val = value
             self.delete_node(node)
             self.insert_after_head(node)
             
         else:
-            if len(self.key_map) <= self.capacity:
-                new_node = Node(value)
+            if len(self.key_map) < self.capacity:
+                new_node = Node(key, value)
                 self.key_map[key] = new_node
                 self.insert_after_head(new_node)
                 
             else:
                 lru_node = self.tail.prev
                 self.delete_node(lru_node)
+                del self.key_map[lru_node.key]
         
-                new_node = Node(value)
+                new_node = Node(key, value)
+                self.key_map[key] = new_node
                 self.insert_after_head(new_node)
 
 
