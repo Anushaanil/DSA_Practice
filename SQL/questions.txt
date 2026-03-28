@@ -1,0 +1,75 @@
+🧠 LEVEL 1 — Fundamentals (you should NOT struggle here)
+Solve these 10 first:
+Find duplicate records in a table
+Retrieve second highest salary
+Count orders per customer
+Retrieve employees who joined in 2023
+Calculate total revenue per product
+Find employees without a department
+Calculate average order value per customer
+Get latest order per customer
+Find products that were never sold
+Find employees with salary between a range
+
+
+🎯 What this level tests
+GROUP BY
+JOIN (especially LEFT JOIN)
+Basic filtering
+Simple aggregations
+
+
+⚠️ LEVEL 2 — Intermediate (this is where most people start failing)
+Next 10:
+Customers who purchased but never returned
+Count customers with more than 5 orders
+Most selling product
+Customers with orders above average value
+Total revenue + order count per region
+First and last order per customer
+Customers with more orders than average
+Percentage of employees in each department
+Max salary difference per department
+Top-performing departments by avg salary
+
+
+🎯 What this level tests
+Subqueries vs HAVING
+Nested aggregation
+Comparison with global metrics (AVG, SUM)
+
+
+🔥 LEVEL 3 — Advanced (THIS is SDE-2 territory)
+Next 10:
+Rank employees by salary per department
+Moving average of sales (3 days)
+Customers ordering every month in a year
+Consecutive purchases (2 days)
+Churned customers (no orders in last 6 months)
+Cumulative revenue
+Last purchase per customer (with amount)
+Revenue contribution % per product
+Revenue from first-time customers
+Products contributing to 80% revenue (Pareto)
+
+
+🎯 What this level tests
+Window functions (critical)
+Time-based logic
+CTEs
+Real-world analytics queries
+
+
+💀 LEVEL 4 — Hard / Rare but powerful
+Final set:
+Average time between purchases
+Year-over-year growth
+Longest gap between orders
+90th percentile purchase detection
+Bottom 10% customers by revenue
+
+
+🎯 What this level tests
+LAG / LEAD mastery
+Percentiles
+Advanced analytics thinking
