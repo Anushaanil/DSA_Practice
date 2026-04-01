@@ -7,6 +7,7 @@
 | ------- |
 | [0053-maximum-subarray](https://github.com/Anushaanil/DSA_Practice/tree/master/0053-maximum-subarray) |
 | [0268-missing-number](https://github.com/Anushaanil/DSA_Practice/tree/master/0268-missing-number) |
+| [0918-maximum-sum-circular-subarray](https://github.com/Anushaanil/DSA_Practice/tree/master/0918-maximum-sum-circular-subarray) |
 ## Hash Table
 |  |
 | ------- |
@@ -31,8 +32,18 @@
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/Anushaanil/DSA_Practice/tree/master/0053-maximum-subarray) |
+| [0918-maximum-sum-circular-subarray](https://github.com/Anushaanil/DSA_Practice/tree/master/0918-maximum-sum-circular-subarray) |
 ## Dynamic Programming
 |  |
 | ------- |
 | [0053-maximum-subarray](https://github.com/Anushaanil/DSA_Practice/tree/master/0053-maximum-subarray) |
+| [0918-maximum-sum-circular-subarray](https://github.com/Anushaanil/DSA_Practice/tree/master/0918-maximum-sum-circular-subarray) |
+## Queue
+|  |
+| ------- |
+| [0918-maximum-sum-circular-subarray](https://github.com/Anushaanil/DSA_Practice/tree/master/0918-maximum-sum-circular-subarray) |
+## Monotonic Queue
+|  |
+| ------- |
+| [0918-maximum-sum-circular-subarray](https://github.com/Anushaanil/DSA_Practice/tree/master/0918-maximum-sum-circular-subarray) |
 <!---LeetCode Topics End-->
