@@ -5,10 +5,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/Anushaanil/DSA_Practice/tree/master/0128-longest-consecutive-sequence) |
+| [0496-next-greater-element-i](https://github.com/Anushaanil/DSA_Practice/tree/master/0496-next-greater-element-i) |
 ## Hash Table
 |  |
 | ------- |
 | [0128-longest-consecutive-sequence](https://github.com/Anushaanil/DSA_Practice/tree/master/0128-longest-consecutive-sequence) |
+| [0496-next-greater-element-i](https://github.com/Anushaanil/DSA_Practice/tree/master/0496-next-greater-element-i) |
 ## Union-Find
 |  |
 | ------- |
@@ -18,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/Anushaanil/DSA_Practice/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/Anushaanil/DSA_Practice/tree/master/0232-implement-queue-using-stacks) |
+| [0496-next-greater-element-i](https://github.com/Anushaanil/DSA_Practice/tree/master/0496-next-greater-element-i) |
 ## Design
 |  |
 | ------- |
@@ -28,4 +31,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0225-implement-stack-using-queues](https://github.com/Anushaanil/DSA_Practice/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/Anushaanil/DSA_Practice/tree/master/0232-implement-queue-using-stacks) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0496-next-greater-element-i](https://github.com/Anushaanil/DSA_Practice/tree/master/0496-next-greater-element-i) |
 <!---LeetCode Topics End-->
