@@ -1,8 +1,10 @@
 '''
  # @ Create Time: 2026-02-17 21:45:14
- # @ Modified time: 2026-02-22 00:18:51
+ # @ Modified time: 2026-05-21 16:31:39
  '''
 
+
+from typing import List
 
 def reverse_string(s):
     stack = []
@@ -231,3 +233,49 @@ def min_stack(arr):
     # and return it's [-1] from min stack also pop whenver main stack ele is popped
     # so that we always have a min at that point.
     return
+
+def carFleet(target, position, speed):
+    stack = []
+    pos_speed = sorted(zip(position, speed), key=lambda x:x[0], reverse=True)
+    
+    print(pos_speed)
+    
+    for car in pos_speed:
+        time_taken = (target - car[0])/car[1]
+
+        stack.append(time_taken)
+        print(stack)
+
+        if len(stack) >=2 and stack[-1] <= stack[-2]:
+            stack.pop()
+        
+    return len(stack)
+
+target = 12
+position = [10,8,0,5,3]
+speed = [2,4,1,1,3]
+# print(carFleet(target, position, speed))
+
+def largestRectangleArea(heights: List[int]) -> int:
+        stack = []
+        max_area = 0
+        n = len(heights)
+
+        for i in range(n):
+            while stack and heights[stack[-1]] > heights[i]:
+                nse = i
+                element = stack.pop()
+                pse = stack[-1] if stack else -1
+                max_area = max(max_area, heights[element]*(nse-pse-1))
+            stack.append(i)
+        
+        while stack:
+            nse = n
+            element = stack.pop()
+            pse = stack[-1] if stack else -1
+            max_area = max(max_area, heights[element]*(nse-pse-1))
+
+        return max_area
+
+heights=[7,1,7,2,2,4]
+# print(largestRectangleArea(heights))
