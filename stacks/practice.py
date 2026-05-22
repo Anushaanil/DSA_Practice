@@ -1,6 +1,6 @@
 '''
  # @ Create Time: 2026-02-17 21:45:14
- # @ Modified time: 2026-05-21 16:31:39
+ # @ Modified time: 2026-05-23 00:52:06
  '''
 
 
@@ -139,6 +139,27 @@ def next_smaller_element(arr):
 # arr = [4,8,5,2,25]
 # res = next_smaller_element(arr)
 # print(res)
+
+# using a dict as we need the res only for nums1 which is a subset of nums2
+def next_greater_element_I(nums1, num2):
+    nge_map = {}
+    result = []
+    stack = []
+
+    # move from right to left
+    for i in range(len(nums1)-1, -1, -1):
+        while stack and nums2[i] > stack[-1]:
+            stack.pop()
+        
+        nge_map[nums2[i]] = stack[-1] if stack else -1
+        stack.append(nums2[i])
+    
+    # check in nums1 now
+    for num in nums1:
+        res = nge_map.get(num, -1)
+        result.append(res)
+    
+    return res
 
 def daily_temp(arr):
     stack = []

@@ -79,12 +79,61 @@ class Stack:
             print(cur.val)
             cur = cur.next
 
+# s = Stack()
+# s.push(2)
+# s.push(8) 
+# s.push(5)
+# s.display()
+# print(s.peek())
+# print(s.pop())
+# s.pop()
+# s.pop()
+# print(s.is_empty())
+# print(s.size())
+# s.display()
+
+
+# Implement Queue using Stack
+class Stack:
+    def __init__(self) -> None:
+        self.input_stack = []
+        self.output_stack = []
+    
+    def push(self, val):
+        self.input_stack.append(val)
+    
+    def pop(self):
+        if not self.output_stack:
+            while self.input_stack:
+                self.output_stack.append(self.input_stack.pop(0))
+        print(self.output_stack)
+        return self.output_stack.pop()
+
+    def top(self):
+        if not self.output_stack:
+            while self.input_stack:
+                self.output_stack.append(self.input_stack.pop())
+        print(self.output_stack)
+        return self.output_stack[-1]
+    
+    def is_empty(self):
+        return not self.input_stack and not self.output_stack
+    
+    def size(self):
+        return len(self.output_stack)
+    
+    def display(self):
+        print(self.input_stack)
+        print(self.output_stack)
+
 s = Stack()
 s.push(2)
 s.push(8) 
 s.push(5)
 s.display()
-print(s.peek())
+
+print(s.top())
+
 print(s.pop())
 s.pop()
 s.pop()

@@ -158,6 +158,56 @@ class Queue:
             print(cur.val)
             cur = cur.next
 
+# q = Queue()
+# q.push(7)
+# q.push(2)
+# q.push(3)
+# q.push(5)
+# q.display()
+# print(q.pop())
+# print(q.peek())
+# q.pop()
+# q.pop()
+# print(q.is_empty())
+# print(q.size())
+# print(q.pop())
+# print(q.peek())
+# print(q.pop())
+# q.display()
+
+# Implement Stack using Queue
+class Queue:
+    def __init__(self) -> None:
+        self.queue = []
+    
+    def display(self):
+        print(self.queue)
+    
+    def is_empty(self):
+        return len(self.queue) == 0
+    
+    def size(self):
+        return len(self.queue)
+    
+    def push(self, val):
+        # self.queue = [val] + self.queue
+        self.queue.append(val)
+
+        # rotate previous elements behind x
+        for _ in range(len(self.queue) - 1):
+            self.queue.append(self.queue.pop(0))
+    
+    def pop(self):
+        if self.is_empty():
+            return "stack underflow"
+        
+        return self.queue.pop(0)
+    
+    def top(self):
+        if self.is_empty():
+            return None
+        return self.queue[0]
+
 q = Queue()
 q.push(7)
 q.push(2)
@@ -165,12 +215,14 @@ q.push(3)
 q.push(5)
 q.display()
 print(q.pop())
-print(q.peek())
-q.pop()
-q.pop()
-print(q.is_empty())
-print(q.size())
+
+# print(q.top())
+
 print(q.pop())
-print(q.peek())
+print(q.pop())
+# print(q.is_empty())
+# print(q.size())
+print(q.pop())
+print(q.top())
 print(q.pop())
 q.display()
