@@ -1,6 +1,6 @@
 '''
  # @ Create Time: 2026-02-17 21:45:14
- # @ Modified time: 2026-05-23 00:52:06
+ # @ Modified time: 2026-05-24 01:11:23
  '''
 
 
@@ -141,7 +141,7 @@ def next_smaller_element(arr):
 # print(res)
 
 # using a dict as we need the res only for nums1 which is a subset of nums2
-def next_greater_element_I(nums1, num2):
+def next_greater_element_I(nums1, nums2):
     nge_map = {}
     result = []
     stack = []
@@ -161,6 +161,63 @@ def next_greater_element_I(nums1, num2):
     
     return res
 
+# my solution O(n2)
+def next_greater_element_II(nums):
+    result = [-1]*len(nums)
+    stack = []
+
+    # move from right to left
+    for i in range(len(nums)-1, -1, -1):
+        while stack and nums[i] > stack[-1]:
+            stack.pop()
+        if stack:
+            result[i] = stack[-1]
+        else:
+            j = 0
+            while j < i:
+                print(j, i)
+                if nums[j] > nums[i]:
+                    result[i] = nums[j]
+                    break
+                j+=1
+            
+        stack.append(nums[i])
+    
+    return result
+
+# optimal solution O(n)
+def next_greater_element_II(nums):
+    n = len(nums)
+    result = [-1]*n
+    stack = []
+
+    # move from right to left
+    for i in range(2*n-1, -1, -1):
+        idx = i % n
+        
+        while stack and nums[idx] >= stack[-1]:
+            stack.pop()
+            
+        result[idx] = stack[-1] if stack else -1
+        
+        stack.append(nums[idx])
+    
+    return result
+
+def previous_smaller_element(nums):
+    stack = []
+    result = [-1]*len(nums)
+    
+    for i in range(len(nums)):
+        while stack and stack[-1] >= nums[i]:
+            stack.pop()
+        result[i] = stack[-1] if stack else -1
+        stack.append(nums[i])
+    return result
+
+nums = [4,8,5,2,25]
+print(previous_smaller_element(nums))
+    
 def daily_temp(arr):
     stack = []
     result = [0]*len(arr)
