@@ -411,4 +411,4 @@ b = BTTraversals()
 # b.iterative_in_order_traversal(root)
 
 # b.iterative_post_order_traversal_2_stacks(root)
-print(b.iterative_post_order_traversal_1_stack(root))
+# print(b.iterative_post_order_traversal_1_stack(root))

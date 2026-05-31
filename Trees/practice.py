@@ -133,18 +133,20 @@ class TreeSolution:
 
         return self.isMirror(root.left, root.right)
     
-    def buildTreeInPost(self, inorder, postorder):
+    
+    def buildTreeInPostHelper(self, inorder, postorder):
 
         if not inorder:
             return None
         
-        inorder_map = {val:idx for idx, val in enumerate(inorder)}
+        # Don't build map inside the recursive function it's unnecssary, pass it globally
+        # inorder_map = {val:idx for idx, val in enumerate(inorder)}
 
         root_val = postorder[-1]
         root = TreeNode(root_val)
 
         # idx = inorder.index(root_val)
-        idx = inorder_map[root_val]
+        idx = self.inorder_map[root_val]
         left_inorder = inorder[:idx]
         right_inorder = inorder[idx+1:]
 
@@ -153,14 +155,24 @@ class TreeSolution:
 
         print('order1 left', left_inorder, left_postorder)
 
-        root.left = self.buildTree(left_inorder, left_postorder)
+        root.left = self.buildTreeInPostHelper(left_inorder, left_postorder)
         print('left val', root.left.val if root.left else None)
 
         print('order2 right', right_inorder, right_postorder)
-        root.right = self.buildTree(right_inorder, right_postorder)
+        root.right = self.buildTreeInPostHelper(right_inorder, right_postorder)
         print('right val', root.right.val if root.right else None)
 
         return root
+    
+    def buildTreeInPost(self, inorder, postorder):
+        
+        self.inorder_map = {
+            val: idx
+            for idx, val in enumerate(inorder)
+        }
+
+        return self.buildTreeInPost(self, inorder, postorder)
+    
     
     def buildTreeInPre(self, preorder, inorder):
         if not inorder:
