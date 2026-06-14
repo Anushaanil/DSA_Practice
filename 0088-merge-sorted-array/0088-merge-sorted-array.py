@@ -3,7 +3,18 @@ class Solution:
         """
         Do not return anything, modify nums1 in-place instead.
         """
-        if n != 0:
-            nums1[-n:] = nums2[:]
-            # print(nums1)
-            nums1.sort()
+
+        p1 = m-1
+        p2 = n-1
+        i = m+n-1
+
+        while (p2>=0):
+            if (p1>=0 and nums1[p1] > nums2[p2]):
+                nums1[i] = nums1[p1]
+                i-=1
+                p1-=1
+
+            else:
+                nums1[i] = nums2[p2]
+                i-=1
+                p2-=1
