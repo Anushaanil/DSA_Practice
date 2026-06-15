@@ -4,146 +4,146 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
-| [0014-longest-common-prefix](https://github.com/Anushaanil/DSA_Practice/tree/master/0014-longest-common-prefix) |
-| [0026-remove-duplicates-from-sorted-array](https://github.com/Anushaanil/DSA_Practice/tree/master/0026-remove-duplicates-from-sorted-array) |
-| [0027-remove-element](https://github.com/Anushaanil/DSA_Practice/tree/master/0027-remove-element) |
-| [0042-trapping-rain-water](https://github.com/Anushaanil/DSA_Practice/tree/master/0042-trapping-rain-water) |
-| [0045-jump-game-ii](https://github.com/Anushaanil/DSA_Practice/tree/master/0045-jump-game-ii) |
-| [0055-jump-game](https://github.com/Anushaanil/DSA_Practice/tree/master/0055-jump-game) |
-| [0068-text-justification](https://github.com/Anushaanil/DSA_Practice/tree/master/0068-text-justification) |
-| [0080-remove-duplicates-from-sorted-array-ii](https://github.com/Anushaanil/DSA_Practice/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
-| [0088-merge-sorted-array](https://github.com/Anushaanil/DSA_Practice/tree/master/0088-merge-sorted-array) |
-| [0121-best-time-to-buy-and-sell-stock](https://github.com/Anushaanil/DSA_Practice/tree/master/0121-best-time-to-buy-and-sell-stock) |
-| [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Anushaanil/DSA_Practice/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
-| [0128-longest-consecutive-sequence](https://github.com/Anushaanil/DSA_Practice/tree/master/0128-longest-consecutive-sequence) |
-| [0134-gas-station](https://github.com/Anushaanil/DSA_Practice/tree/master/0134-gas-station) |
-| [0135-candy](https://github.com/Anushaanil/DSA_Practice/tree/master/0135-candy) |
-| [0169-majority-element](https://github.com/Anushaanil/DSA_Practice/tree/master/0169-majority-element) |
-| [0189-rotate-array](https://github.com/Anushaanil/DSA_Practice/tree/master/0189-rotate-array) |
-| [0238-product-of-array-except-self](https://github.com/Anushaanil/DSA_Practice/tree/master/0238-product-of-array-except-self) |
-| [0274-h-index](https://github.com/Anushaanil/DSA_Practice/tree/master/0274-h-index) |
-| [0380-insert-delete-getrandom-o1](https://github.com/Anushaanil/DSA_Practice/tree/master/0380-insert-delete-getrandom-o1) |
-| [0496-next-greater-element-i](https://github.com/Anushaanil/DSA_Practice/tree/master/0496-next-greater-element-i) |
-| [0503-next-greater-element-ii](https://github.com/Anushaanil/DSA_Practice/tree/master/0503-next-greater-element-ii) |
+| [0014-longest-common-prefix](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0014-longest-common-prefix) |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0026-remove-duplicates-from-sorted-array) |
+| [0027-remove-element](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0027-remove-element) |
+| [0042-trapping-rain-water](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0042-trapping-rain-water) |
+| [0045-jump-game-ii](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0045-jump-game-ii) |
+| [0055-jump-game](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0055-jump-game) |
+| [0068-text-justification](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0068-text-justification) |
+| [0080-remove-duplicates-from-sorted-array-ii](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0080-remove-duplicates-from-sorted-array-ii) |
+| [0088-merge-sorted-array](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0088-merge-sorted-array) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0121-best-time-to-buy-and-sell-stock) |
+| [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0128-longest-consecutive-sequence](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Hashmap/0128-longest-consecutive-sequence) |
+| [0134-gas-station](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0134-gas-station) |
+| [0135-candy](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0135-candy) |
+| [0169-majority-element](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0169-majority-element) |
+| [0189-rotate-array](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0189-rotate-array) |
+| [0238-product-of-array-except-self](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0238-product-of-array-except-self) |
+| [0274-h-index](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0274-h-index) |
+| [0380-insert-delete-getrandom-o1](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0380-insert-delete-getrandom-o1) |
+| [0496-next-greater-element-i](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/stacks/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/stacks/0503-next-greater-element-ii) |
 ## Hash Table
 |  |
 | ------- |
-| [0012-integer-to-roman](https://github.com/Anushaanil/DSA_Practice/tree/master/0012-integer-to-roman) |
-| [0013-roman-to-integer](https://github.com/Anushaanil/DSA_Practice/tree/master/0013-roman-to-integer) |
-| [0128-longest-consecutive-sequence](https://github.com/Anushaanil/DSA_Practice/tree/master/0128-longest-consecutive-sequence) |
-| [0169-majority-element](https://github.com/Anushaanil/DSA_Practice/tree/master/0169-majority-element) |
-| [0380-insert-delete-getrandom-o1](https://github.com/Anushaanil/DSA_Practice/tree/master/0380-insert-delete-getrandom-o1) |
-| [0496-next-greater-element-i](https://github.com/Anushaanil/DSA_Practice/tree/master/0496-next-greater-element-i) |
+| [0012-integer-to-roman](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0012-integer-to-roman) |
+| [0013-roman-to-integer](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0013-roman-to-integer) |
+| [0128-longest-consecutive-sequence](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Hashmap/0128-longest-consecutive-sequence) |
+| [0169-majority-element](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0169-majority-element) |
+| [0380-insert-delete-getrandom-o1](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0380-insert-delete-getrandom-o1) |
+| [0496-next-greater-element-i](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/stacks/0496-next-greater-element-i) |
 ## Union-Find
 |  |
 | ------- |
-| [0128-longest-consecutive-sequence](https://github.com/Anushaanil/DSA_Practice/tree/master/0128-longest-consecutive-sequence) |
+| [0128-longest-consecutive-sequence](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Hashmap/0128-longest-consecutive-sequence) |
 ## Stack
 |  |
 | ------- |
-| [0042-trapping-rain-water](https://github.com/Anushaanil/DSA_Practice/tree/master/0042-trapping-rain-water) |
-| [0225-implement-stack-using-queues](https://github.com/Anushaanil/DSA_Practice/tree/master/0225-implement-stack-using-queues) |
-| [0232-implement-queue-using-stacks](https://github.com/Anushaanil/DSA_Practice/tree/master/0232-implement-queue-using-stacks) |
-| [0496-next-greater-element-i](https://github.com/Anushaanil/DSA_Practice/tree/master/0496-next-greater-element-i) |
-| [0503-next-greater-element-ii](https://github.com/Anushaanil/DSA_Practice/tree/master/0503-next-greater-element-ii) |
+| [0042-trapping-rain-water](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0042-trapping-rain-water) |
+| [0225-implement-stack-using-queues](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/stacks/0225-implement-stack-using-queues) |
+| [0232-implement-queue-using-stacks](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/stacks/0232-implement-queue-using-stacks) |
+| [0496-next-greater-element-i](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/stacks/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/stacks/0503-next-greater-element-ii) |
 ## Design
 |  |
 | ------- |
-| [0225-implement-stack-using-queues](https://github.com/Anushaanil/DSA_Practice/tree/master/0225-implement-stack-using-queues) |
-| [0232-implement-queue-using-stacks](https://github.com/Anushaanil/DSA_Practice/tree/master/0232-implement-queue-using-stacks) |
-| [0380-insert-delete-getrandom-o1](https://github.com/Anushaanil/DSA_Practice/tree/master/0380-insert-delete-getrandom-o1) |
+| [0225-implement-stack-using-queues](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/stacks/0225-implement-stack-using-queues) |
+| [0232-implement-queue-using-stacks](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/stacks/0232-implement-queue-using-stacks) |
+| [0380-insert-delete-getrandom-o1](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0380-insert-delete-getrandom-o1) |
 ## Queue
 |  |
 | ------- |
-| [0225-implement-stack-using-queues](https://github.com/Anushaanil/DSA_Practice/tree/master/0225-implement-stack-using-queues) |
-| [0232-implement-queue-using-stacks](https://github.com/Anushaanil/DSA_Practice/tree/master/0232-implement-queue-using-stacks) |
+| [0225-implement-stack-using-queues](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/stacks/0225-implement-stack-using-queues) |
+| [0232-implement-queue-using-stacks](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/stacks/0232-implement-queue-using-stacks) |
 ## Monotonic Stack
 |  |
 | ------- |
-| [0042-trapping-rain-water](https://github.com/Anushaanil/DSA_Practice/tree/master/0042-trapping-rain-water) |
-| [0496-next-greater-element-i](https://github.com/Anushaanil/DSA_Practice/tree/master/0496-next-greater-element-i) |
-| [0503-next-greater-element-ii](https://github.com/Anushaanil/DSA_Practice/tree/master/0503-next-greater-element-ii) |
+| [0042-trapping-rain-water](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0042-trapping-rain-water) |
+| [0496-next-greater-element-i](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/stacks/0496-next-greater-element-i) |
+| [0503-next-greater-element-ii](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/stacks/0503-next-greater-element-ii) |
 ## Two Pointers
 |  |
 | ------- |
-| [0026-remove-duplicates-from-sorted-array](https://github.com/Anushaanil/DSA_Practice/tree/master/0026-remove-duplicates-from-sorted-array) |
-| [0027-remove-element](https://github.com/Anushaanil/DSA_Practice/tree/master/0027-remove-element) |
-| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Anushaanil/DSA_Practice/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
-| [0042-trapping-rain-water](https://github.com/Anushaanil/DSA_Practice/tree/master/0042-trapping-rain-water) |
-| [0080-remove-duplicates-from-sorted-array-ii](https://github.com/Anushaanil/DSA_Practice/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
-| [0088-merge-sorted-array](https://github.com/Anushaanil/DSA_Practice/tree/master/0088-merge-sorted-array) |
-| [0151-reverse-words-in-a-string](https://github.com/Anushaanil/DSA_Practice/tree/master/0151-reverse-words-in-a-string) |
-| [0189-rotate-array](https://github.com/Anushaanil/DSA_Practice/tree/master/0189-rotate-array) |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0026-remove-duplicates-from-sorted-array) |
+| [0027-remove-element](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0027-remove-element) |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0042-trapping-rain-water](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0042-trapping-rain-water) |
+| [0080-remove-duplicates-from-sorted-array-ii](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0080-remove-duplicates-from-sorted-array-ii) |
+| [0088-merge-sorted-array](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0088-merge-sorted-array) |
+| [0151-reverse-words-in-a-string](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0151-reverse-words-in-a-string) |
+| [0189-rotate-array](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0189-rotate-array) |
 ## Sorting
 |  |
 | ------- |
-| [0088-merge-sorted-array](https://github.com/Anushaanil/DSA_Practice/tree/master/0088-merge-sorted-array) |
-| [0169-majority-element](https://github.com/Anushaanil/DSA_Practice/tree/master/0169-majority-element) |
-| [0274-h-index](https://github.com/Anushaanil/DSA_Practice/tree/master/0274-h-index) |
+| [0088-merge-sorted-array](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0088-merge-sorted-array) |
+| [0169-majority-element](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0169-majority-element) |
+| [0274-h-index](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0274-h-index) |
 ## Divide and Conquer
 |  |
 | ------- |
-| [0169-majority-element](https://github.com/Anushaanil/DSA_Practice/tree/master/0169-majority-element) |
+| [0169-majority-element](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0169-majority-element) |
 ## Counting
 |  |
 | ------- |
-| [0169-majority-element](https://github.com/Anushaanil/DSA_Practice/tree/master/0169-majority-element) |
+| [0169-majority-element](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0169-majority-element) |
 ## Math
 |  |
 | ------- |
-| [0012-integer-to-roman](https://github.com/Anushaanil/DSA_Practice/tree/master/0012-integer-to-roman) |
-| [0013-roman-to-integer](https://github.com/Anushaanil/DSA_Practice/tree/master/0013-roman-to-integer) |
-| [0189-rotate-array](https://github.com/Anushaanil/DSA_Practice/tree/master/0189-rotate-array) |
-| [0380-insert-delete-getrandom-o1](https://github.com/Anushaanil/DSA_Practice/tree/master/0380-insert-delete-getrandom-o1) |
+| [0012-integer-to-roman](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0012-integer-to-roman) |
+| [0013-roman-to-integer](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0013-roman-to-integer) |
+| [0189-rotate-array](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0189-rotate-array) |
+| [0380-insert-delete-getrandom-o1](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0380-insert-delete-getrandom-o1) |
 ## Dynamic Programming
 |  |
 | ------- |
-| [0042-trapping-rain-water](https://github.com/Anushaanil/DSA_Practice/tree/master/0042-trapping-rain-water) |
-| [0045-jump-game-ii](https://github.com/Anushaanil/DSA_Practice/tree/master/0045-jump-game-ii) |
-| [0055-jump-game](https://github.com/Anushaanil/DSA_Practice/tree/master/0055-jump-game) |
-| [0121-best-time-to-buy-and-sell-stock](https://github.com/Anushaanil/DSA_Practice/tree/master/0121-best-time-to-buy-and-sell-stock) |
-| [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Anushaanil/DSA_Practice/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0042-trapping-rain-water](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0042-trapping-rain-water) |
+| [0045-jump-game-ii](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0045-jump-game-ii) |
+| [0055-jump-game](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0055-jump-game) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0121-best-time-to-buy-and-sell-stock) |
+| [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0122-best-time-to-buy-and-sell-stock-ii) |
 ## Greedy
 |  |
 | ------- |
-| [0045-jump-game-ii](https://github.com/Anushaanil/DSA_Practice/tree/master/0045-jump-game-ii) |
-| [0055-jump-game](https://github.com/Anushaanil/DSA_Practice/tree/master/0055-jump-game) |
-| [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Anushaanil/DSA_Practice/tree/master/0122-best-time-to-buy-and-sell-stock-ii) |
-| [0134-gas-station](https://github.com/Anushaanil/DSA_Practice/tree/master/0134-gas-station) |
-| [0135-candy](https://github.com/Anushaanil/DSA_Practice/tree/master/0135-candy) |
+| [0045-jump-game-ii](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0045-jump-game-ii) |
+| [0055-jump-game](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0055-jump-game) |
+| [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0122-best-time-to-buy-and-sell-stock-ii) |
+| [0134-gas-station](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0134-gas-station) |
+| [0135-candy](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0135-candy) |
 ## Counting Sort
 |  |
 | ------- |
-| [0274-h-index](https://github.com/Anushaanil/DSA_Practice/tree/master/0274-h-index) |
+| [0274-h-index](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0274-h-index) |
 ## Randomized
 |  |
 | ------- |
-| [0380-insert-delete-getrandom-o1](https://github.com/Anushaanil/DSA_Practice/tree/master/0380-insert-delete-getrandom-o1) |
+| [0380-insert-delete-getrandom-o1](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0380-insert-delete-getrandom-o1) |
 ## Prefix Sum
 |  |
 | ------- |
-| [0238-product-of-array-except-self](https://github.com/Anushaanil/DSA_Practice/tree/master/0238-product-of-array-except-self) |
+| [0238-product-of-array-except-self](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0238-product-of-array-except-self) |
 ## String
 |  |
 | ------- |
-| [0006-zigzag-conversion](https://github.com/Anushaanil/DSA_Practice/tree/master/0006-zigzag-conversion) |
-| [0012-integer-to-roman](https://github.com/Anushaanil/DSA_Practice/tree/master/0012-integer-to-roman) |
-| [0013-roman-to-integer](https://github.com/Anushaanil/DSA_Practice/tree/master/0013-roman-to-integer) |
-| [0014-longest-common-prefix](https://github.com/Anushaanil/DSA_Practice/tree/master/0014-longest-common-prefix) |
-| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Anushaanil/DSA_Practice/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
-| [0058-length-of-last-word](https://github.com/Anushaanil/DSA_Practice/tree/master/0058-length-of-last-word) |
-| [0068-text-justification](https://github.com/Anushaanil/DSA_Practice/tree/master/0068-text-justification) |
-| [0151-reverse-words-in-a-string](https://github.com/Anushaanil/DSA_Practice/tree/master/0151-reverse-words-in-a-string) |
+| [0006-zigzag-conversion](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0006-zigzag-conversion) |
+| [0012-integer-to-roman](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0012-integer-to-roman) |
+| [0013-roman-to-integer](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0013-roman-to-integer) |
+| [0014-longest-common-prefix](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0014-longest-common-prefix) |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0058-length-of-last-word](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0058-length-of-last-word) |
+| [0068-text-justification](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0068-text-justification) |
+| [0151-reverse-words-in-a-string](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0151-reverse-words-in-a-string) |
 ## Trie
 |  |
 | ------- |
-| [0014-longest-common-prefix](https://github.com/Anushaanil/DSA_Practice/tree/master/0014-longest-common-prefix) |
+| [0014-longest-common-prefix](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0014-longest-common-prefix) |
 ## Simulation
 |  |
 | ------- |
-| [0068-text-justification](https://github.com/Anushaanil/DSA_Practice/tree/master/0068-text-justification) |
+| [0068-text-justification](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0068-text-justification) |
 ## String Matching
 |  |
 | ------- |
-| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Anushaanil/DSA_Practice/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 <!---LeetCode Topics End-->

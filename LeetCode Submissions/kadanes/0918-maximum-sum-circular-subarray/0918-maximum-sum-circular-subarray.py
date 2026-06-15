@@ -1,3 +1,42 @@
+"""
+A circular maximum subarray is:
+
+Entire Circle - One Contiguous Segment
+
+Never think:
+
+Entire Circle - Some negative numbers
+
+because you're not allowed to remove arbitrary elements.
+
+You're only allowed to "cut out" one contiguous chunk.
+
+That's why Kadane finds the minimum contiguous chunk, not all negative values.
+
+Think Backwards
+
+Instead of asking:
+
+Which elements am I taking?
+
+Ask:
+
+Which elements am I NOT taking?
+
+For:
+
+[5,-3,5]
+
+If I take:
+
+[last 5] + [first 5]
+
+I'm excluding:
+
+[-3]
+"""
+
+from typing import List
 class Solution:
     def maxSubarraySumCircular(self, nums: List[int]) -> int:
         max_sum, min_sum = nums[0], nums[0]

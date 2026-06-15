@@ -1,6 +1,6 @@
 '''
  # @ Create Time: 2025-11-15 22:16:25
- # @ Modified time: 2025-11-17 00:37:38
+ # @ Modified time: 2026-06-15 01:47:59
  '''
 
 
@@ -13,12 +13,34 @@ def bubble_sort(arr):
     Repeat n-1 times:
     Go left to right:
         If neighbor on left > neighbor on right → swap
+    
+    What Bubble Sort guarantees after each pass?
+
+    After Pass 1:
+
+    [3, 5, 4, 2, 8]
+
+    The largest element (8) has bubbled to the end.
+    After each pass, only the right side becomes fixed.
+
+    The left side is still messy.
+
+    So every pass must begin from the start:
+
+    for i in range(1, ...)
+
+    not from:
+
+    for i in range(pass_num, ...)
+
+    because nothing guarantees the left side is sorted.
 
     """
     print(arr)
     n = len(arr)
     for pass_num in range(n-1):
         for i in range(1, n-pass_num):
+        # for i in range(pass_num, n):
             print(arr[i-1], '-----', arr[i])
 
             if arr[i-1] > arr[i]:
@@ -53,6 +75,43 @@ def selection_sort(arr):
 
     return arr
 
+'''
+Interview Question
+
+    Can you tell me why Selection Sort can start from:
+
+    for i in range(pass_num, n):
+
+    but Bubble Sort cannot?
+
+    
+The key difference
+
+Selection Sort says:
+
+Left side is sorted.
+Right side is unsorted.
+
+Bubble Sort says:
+
+Left side is unsorted.
+Right side is sorted.
+
+Therefore:
+
+Selection Sort
+
+Shrink from the left:
+
+for i in range(pass_num, n)
+Bubble Sort
+
+Shrink from the right:
+
+for i in range(1, n-pass_num)
+
+'''
+
 def insertion_sort(arr):
     """
     Diary Student | Insert one at a time
@@ -80,12 +139,98 @@ def insertion_sort(arr):
 
     return arr
 
-def quick_sort(arr):
+def merge_sort(arr):
+    '''
+    Idea
+        Split
+        Split
+        Split
+        Until size = 1
+
+        Then merge back
+
+    Example:
+
+        [8,3,5,4]
+
+            [8,3,5,4]
+            /       \
+        [8,3]     [5,4]
+        /  \      /  \
+        [8] [3]   [5] [4]
+
+        Merge:
+        [3,8]
+        [4,5]
+
+        Merge:
+        [3,4,5,8]
+        Invariant
+
+        When merging:
+
+        Left half is sorted
+        Right half is sorted
+
+        You combine them into one sorted array.
+
+    Complexity
+        Metric	Value
+        Time	O(n log n)
+        Space	O(n)
+        Stable	Yes
+        Memory Trick
+
+    Break family apart → reunite in sorted order.
+    '''
     
+    # def merge(low, mid, high, arr):
+    def merge(low, mid, high, arr):
+
+        left = low
+        right = mid + 1
+
+        temp = []
+
+        while left <= mid and right <= high:
+
+            if arr[left] <= arr[right]:
+                temp.append(arr[left])
+                left += 1
+
+            else:
+                temp.append(arr[right])
+                right += 1
+
+        while left <= mid:
+            temp.append(arr[left])
+            left += 1
+
+        while right <= high:
+            temp.append(arr[right])
+            right += 1
+
+        for i in range(low, high + 1):
+            arr[i] = temp[i - low]
+    
+    def merge_sort_after_split(low, high, arr):
+        
+        # there is only 1 element
+        if low >= high:
+            return
+        
+        mid = (low+high)//2
+        
+        merge_sort_after_split(low, mid, arr)
+        merge_sort_after_split(mid+1, high, arr)
+        merge(low, mid, high, arr)
+    
+    merge_sort_after_split(0, len(arr)-1, arr)
     return arr
 
 if __name__ == "__main__":
     test = [5, 3, 8, 1, 2]
     # print(bubble_sort(test))
     # print(selection_sort(test))
-    print(insertion_sort(test))
+    # print(insertion_sort(test))
+    print(merge_sort(test))

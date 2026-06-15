@@ -1,3 +1,8 @@
+'''
+ # @ Create Time: 2026-02-26 10:14:51
+ # @ Modified time: 2026-06-14 21:14:23
+'''
+
 def binary_search(nums, target: int) -> int:
         left = 0
         right = len(nums)-1

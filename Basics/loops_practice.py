@@ -1,4 +1,9 @@
 '''
+ # @ Create Time: 2025-11-17 00:50:59
+ # @ Modified time: 2026-06-14 21:08:27
+ '''
+
+'''
 👉 LEVEL 4: Loop + shifting logic (insertion-sort style)
 (8) Insert a number into a sorted array at correct position
 
@@ -130,7 +135,7 @@ def loop_6(arr):
     #             print('arr after', arr)
     # print('arr final', arr)
 
-    # if position of elements doesn't matter
+    # if position of elements doesn't matter, this is very good
     write_pos = 0   # where the next non-zero element should go
 
     for read_pos in range(len(arr)):
@@ -140,6 +145,8 @@ def loop_6(arr):
             arr[write_pos] = current_val
             write_pos += 1
 
+    print(arr)
+
     # Fill remaining with zeros
     while write_pos < len(arr):
         arr[write_pos] = 0
@@ -148,6 +155,20 @@ def loop_6(arr):
     print('arr final', arr)
 
     return
+
+    # 2 pointers approach
+    # l = 0
+    # r = len(arr) - 1
+
+    # while l < r:
+    #     print(l, r)
+    #     if arr[l] == 0:
+    #         if arr[r] == 0:
+    #             r-=1
+    #         arr[l], arr[r] = arr[r], arr[l]
+    #         r-=1
+    #     l+=1
+    # print('arr', arr)
 
 def loop_7(arr):
 

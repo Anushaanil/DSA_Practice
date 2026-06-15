@@ -1,3 +1,21 @@
+'''
+ # @ Create Time: 2026-06-14 17:10:17
+ # @ Modified time: 2026-06-14 21:13:19
+'''
+
+"""
+For a subarray ending at index i, is it better to extend the previous subarray or 
+start fresh from here so that we get a maximum sum.
+
+It's of no use to include the -ve number unless it gives larger sum, which it doesn't.
+
+That single question leads directly to:
+
+current_sum = max(nums[i], current_sum + nums[i])
+
+and that is Kadane's Algorithm.
+
+"""
 def maxSubarraySumCircular(nums):
         # Tried this approach but it's not the right solution to this problem
         # max_sum = -float("inf")
