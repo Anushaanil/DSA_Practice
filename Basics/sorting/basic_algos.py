@@ -1,6 +1,6 @@
 '''
  # @ Create Time: 2025-11-15 22:16:25
- # @ Modified time: 2026-06-15 01:47:59
+ # @ Modified time: 2026-06-20 11:44:31
  '''
 
 
@@ -35,6 +35,9 @@ def bubble_sort(arr):
 
     because nothing guarantees the left side is sorted.
 
+    Time - O(n^2)
+    Space - O(1)
+
     """
     print(arr)
     n = len(arr)
@@ -44,6 +47,19 @@ def bubble_sort(arr):
             print(arr[i-1], '-----', arr[i])
 
             if arr[i-1] > arr[i]:
+                arr[i-1], arr[i] = arr[i], arr[i-1]
+    return arr
+
+# using a flag
+def bubble_sort_flag(arr):
+    n = len(arr)
+    flag = True
+
+    while flag:
+        flag = False
+        for i in range(1, n):
+            if arr[i-1] > arr[i]:
+                flag = True
                 arr[i-1], arr[i] = arr[i], arr[i-1]
     return arr
 
@@ -202,6 +218,8 @@ def merge_sort(arr):
                 temp.append(arr[right])
                 right += 1
 
+        print(temp)
+        
         while left <= mid:
             temp.append(arr[left])
             left += 1
