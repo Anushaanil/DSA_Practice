@@ -1,8 +1,12 @@
 '''
  # @ Create Time: 2026-02-26 10:14:51
- # @ Modified time: 2026-06-14 21:14:23
+ # @ Modified time: 2026-06-21 21:33:50
 '''
 
+# After binary search fails
+# left points to the smallest value greater than the target. ex: 5(left) > 4(target)
+# right points to the largest value smaller than the target. ex: 3(right) < 4(target)
+             
 def binary_search(nums, target: int) -> int:
         left = 0
         right = len(nums)-1
@@ -21,6 +25,42 @@ def binary_search(nums, target: int) -> int:
 nums = [1,2,3,4,5]
 target = 3
 # print(binary_search(nums, target))
+
+def binary_search_nearest(nums, target: int) -> int:
+        left = 0
+        right = len(nums)-1
+
+        while left<=right:
+            mid = (left + right) // 2
+            if nums[mid] == target:
+                return mid
+            elif nums[mid]<target:
+                left = mid+1
+            else:
+                right = mid-1
+        
+        # Target not found
+        # left points to the smallest value greater than the target. ex: 5(left) > 4(target)
+        # right points to the largest value smaller than the target. ex: 3(right) < 4(target)
+             
+        print(left, right)
+        # Target is smaller than all elements        
+        if right < 0:
+            return left
+        
+        if left >= len(nums):
+            return right
+        
+        print(abs(nums[left]- target), abs(nums[right]- target))
+        
+        if abs(nums[left]- target) < abs(nums[right]- target):
+            return left
+        
+        return right
+
+nums = [1,2,3,4,5,14,18]
+target = 16
+# print(binary_search_nearest(nums, target))
 
 def searchInsert(nums, target):
     left = 0
@@ -41,7 +81,7 @@ def searchInsert(nums, target):
     return left
 
 nums = [1,2,4,5,6]
-target = 3
+target = 7
 # print(searchInsert(nums, target))
 
 
@@ -107,7 +147,7 @@ def firstBadVersion(n):
         if isBadVersion(mid):
             r = mid
         else:
-                l = mid+1
+            l = mid+1
             
     return l
 
@@ -134,7 +174,7 @@ class Solution:
             return -1
         
         while l<r:
-            mid = (l+r+1)//2
+            mid = (l+r+1)//2 # to prevent infinite loop
             if nums[mid] <= target:
                 l = mid
             else:
@@ -163,6 +203,7 @@ def search_in_rotated_sorted_array(nums, target):
     # another approach find pivot i.e peak element
     # search in left side of peak
     # if not found then search in right side of peak
+    # either half is always sorted
     while l<=r:
         mid = (l+r)//2
         if nums[mid] == target:
@@ -180,6 +221,7 @@ def search_in_rotated_sorted_array(nums, target):
 
     return -1
 
+# [6,7] rotated and comes before the [1,2,3,4,5] still they are in sorted manner
 # nums = [6,7,1,2,3,4,5]
 # target = 6
 # print(search_in_rotated_sorted_array(nums, target))
@@ -369,4 +411,4 @@ def find_rotation_count_in_rotated_sorted_array(arr):
 
 # count of rotations = index of min element
 arr = [1,2,3,4,5,6]
-print(find_rotation_count_in_rotated_sorted_array(arr))
+# print(find_rotation_count_in_rotated_sorted_array(arr))

@@ -1,6 +1,6 @@
 '''
  # @ Create Time: 2025-11-15 22:16:25
- # @ Modified time: 2026-06-20 11:44:31
+ # @ Modified time: 2026-06-21 01:47:19
  '''
 
 
@@ -246,9 +246,56 @@ def merge_sort(arr):
     merge_sort_after_split(0, len(arr)-1, arr)
     return arr
 
+def quick_sort(left, right, arr):
+    """
+    Pick a pivot (generally the last element considered)
+
+    Move:
+
+    Smaller elements → left side
+    Larger elements → right side
+
+    Then recursively repeat for left and right halves.
+    
+    Average:
+
+    O(n log n)
+
+    Worst case:
+
+    O(n²)
+    """
+    
+    def partition(left, right, arr):
+        pivot = arr[right] # used to compare
+        i = left # left boundary of smaller elements
+        
+        for j in range(left, right):
+            if arr[j] < pivot:
+                arr[i], arr[j] = arr[j], arr[i]
+                i+=1
+                
+        arr[i], arr[right] = arr[right], arr[i]
+        
+        return i
+            
+
+    if left >= right:
+        return
+    
+    pivot_index = partition(left, right, arr)
+
+    quick_sort(left, pivot_index-1, arr)
+    quick_sort(pivot_index+1, right, arr)
+
+    return arr
+    
+
 if __name__ == "__main__":
-    test = [5, 3, 8, 1, 2]
+    # test = [5, 3, 8, 1, 2]
+    test = [8,3,5,4,7]
     # print(bubble_sort(test))
     # print(selection_sort(test))
     # print(insertion_sort(test))
-    print(merge_sort(test))
+    # print(merge_sort(test))
+    print(quick_sort(0, len(test)-1, test))
