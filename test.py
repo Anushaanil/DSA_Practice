@@ -1,3 +1,5 @@
+from typing import List
+
 def selection_sort(arr):
     # find smallest and move it to the left
     n = len(arr)
@@ -156,4 +158,75 @@ def find_min_rotated_array(arr):
     return ans
 
 nums = [1,2,3,4,5, 6,7]
-print(find_min_rotated_array(nums))
+# print(find_min_rotated_array(nums))
+
+def findPeakElement(nums):
+    l = 0
+    r = len(nums) - 1
+
+    while l <= r:
+        mid = (l+r)//2
+
+        if nums[mid] >= nums[mid+1]:
+            r = mid - 1
+        else:
+            l = mid + 1
+    return nums[l]
+
+nums = [1,2,3,4,5,3,1,0]
+# print(findPeakElement(nums))
+
+matrix=[[1,3,5,7],[10,11,16,20],[23,30,34,60]]
+target=60
+
+def searchMatrix(matrix: List[List[int]], target: int) -> bool:
+    for row in range(len(matrix)):
+        l = 0
+        r = len(matrix[0]) - 1
+
+        print(row, l, r)
+
+        if matrix[row][l] <= target <= matrix[row][r]:
+            while l <=r:
+                m = (l+r)//2
+                if matrix[row][m] == target:
+                    print(row, m)
+
+                    return True
+                elif matrix[row][m] < target:
+                    l = m + 1
+                else:
+                    r = m - 1
+    return False
+
+# print(searchMatrix(matrix, target))
+
+import math
+
+def minEatingSpeed(piles: List[int], h: int) -> int:
+    l = 1
+    r = max(piles)
+
+    # print(l, r)
+
+    while l <r:
+        m = (l+r)//2
+
+        
+
+        eating_speed = sum(math.ceil(i/m) for i in piles)
+        # print(eating_speed)
+
+        if eating_speed <= h:
+            r = m
+        else:
+            l = m + 1
+
+    for i in piles:
+        print(i, math.ceil(i/m))
+
+    return r
+
+piles = [25,10,23,4]
+h = 9
+print(minEatingSpeed(piles, h))

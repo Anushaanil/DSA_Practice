@@ -1,12 +1,50 @@
 '''
  # @ Create Time: 2026-02-26 10:14:51
- # @ Modified time: 2026-06-21 21:33:50
+ # @ Modified time: 2026-06-23 01:04:10
 '''
 
 # After binary search fails
 # left points to the smallest value greater than the target. ex: 5(left) > 4(target)
 # right points to the largest value smaller than the target. ex: 3(right) < 4(target)
-             
+
+# Update	Midpoint
+# l = mid	(l+r+1)//2
+# r = mid	(l+r)//2
+# l = mid+1	(l+r)//2
+# r = mid-1	(l+r)//2
+
+# The +1 version is only needed when you keep mid itself on the left side.
+
+'''
+For interviews, I'd recommend being comfortable with both templates:
+
+Template A (boundary search)
+while l < r:
+    mid = (l+r+1)//2
+
+    if valid(mid):
+        l = mid
+    else:
+        r = mid-1
+
+return l
+Template B (classic binary search)
+ans = ...
+
+while l <= r:
+    mid = (l+r)//2
+
+    if valid(mid):
+        ans = mid
+        l = mid+1
+    else:
+        r = mid-1
+
+return ans
+
+Most people find Template B easier initially, but Template A becomes very powerful once you're doing advanced binary-search-on-answer problems.
+'''
+
 def binary_search(nums, target: int) -> int:
         left = 0
         right = len(nums)-1
@@ -262,28 +300,45 @@ nums = [1,2,3,4,5,3,1,0]
 
 
 def mySqrt(x: int) -> int:
-    l = 1
-    r = x
+    # l = 1
+    # r = x
 
+    # if x == 0:
+    #     return 0
+
+    # while l<r:
+    #     mid = (l+r+1)//2
+    #     if mid * mid <= x:
+    #         l = mid
+    #     else:
+    #         r = mid-1
+
+    # return l
     if x == 0:
         return 0
+    
+    l = 1
+    r = x
+    ans = 0
 
-    while l<r:
-        mid = (l+r+1)//2
-        if mid * mid <= x:
-            l = mid
-        else:
-            r = mid-1
+    # another variant
+    # while l<=r:
+    #     m = (l+r)//2
+    #     if m * m <=x:
+    #         ans = m
+    #         l = m + 1
+    #     else:
+    #         r = m - 1
+    # return ans
 
-    return l
-
-# print(mySqrt(8))
+print(mySqrt(8))
 
 
 import math
 def minEatingSpeed(piles, h):
     l = 1
     r = max(piles)
+    
 
     while l < r:
         mid = (l+r)//2
