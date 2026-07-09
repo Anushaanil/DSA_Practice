@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0380-insert-delete-getrandom-o1](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0380-insert-delete-getrandom-o1) |
 | [0496-next-greater-element-i](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/stacks/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/stacks/0503-next-greater-element-ii) |
+| [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Anushaanil/DSA_Practice/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 ## Hash Table
 |  |
 | ------- |
@@ -103,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0055-jump-game) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0121-best-time-to-buy-and-sell-stock) |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0122-best-time-to-buy-and-sell-stock-ii) |
+| [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Anushaanil/DSA_Practice/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 ## Greedy
 |  |
 | ------- |
@@ -146,4 +148,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+## Sliding Window
+|  |
+| ------- |
+| [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Anushaanil/DSA_Practice/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 <!---LeetCode Topics End-->
