@@ -1,6 +1,6 @@
 '''
  # @ Create Time: 2026-06-14 17:10:17
- # @ Modified time: 2026-06-14 21:13:19
+ # @ Modified time: 2026-07-17 13:03:35
 '''
 
 """
@@ -49,12 +49,12 @@ def maxSubarraySumCircular(nums):
         total_sum = sum(nums)
 
         # Kadane for max subarray
-        max_sum = nums[0]
-        cur_max = 0
+        max_sum = nums[0] # Best answer found so far
+        cur_max = 0 # Maximum subarray ending at current index
 
         # Kadane for min subarray
-        min_sum = nums[0]
-        cur_min = 0
+        min_sum = nums[0] # Smallest subarray found so far
+        cur_min = 0 # Minimum subarray ending at current index
 
         for num in nums:
             cur_max = max(cur_max + num, num)
