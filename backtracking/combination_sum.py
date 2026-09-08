@@ -1,3 +1,33 @@
+"""
+### Combination Sum — Basic Summary
+
+Given an array and a target, find **all combinations of numbers that add up to the target**.
+
+Key points:
+
+* Each number can be used **multiple times**.
+* At every number, we have **2 choices**:
+
+  * Include it → stay at the same index.
+  * Exclude it → move to the next index.
+* Use **backtracking** to explore both choices.
+* `append()` → make a choice.
+* Recursive call → explore that choice.
+* `pop()` → undo the choice and try another path.
+* `remaining == 0` → valid combination found.
+* `remaining < 0` → stop that branch.
+
+**Mental model:**
+
+```text
+Take → Explore → Undo
+       OR
+Skip → Move forward
+```
+
+The main thing to recognize: **Combination Sum = backtracking + include/exclude + reuse allowed.**
+
+"""
 def combinationSum(nums, target):
     def dfs(nums, combo_sums, cur_ind, remaining):
         if remaining == 0:
