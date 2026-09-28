@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0274-h-index](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0274-h-index) |
 | [0289-game-of-life](https://github.com/Anushaanil/DSA_Practice/tree/master/0289-game-of-life) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0380-insert-delete-getrandom-o1) |
+| [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Anushaanil/DSA_Practice/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0496-next-greater-element-i](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/stacks/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/stacks/0503-next-greater-element-ii) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Anushaanil/DSA_Practice/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
@@ -33,6 +34,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0012-integer-to-roman](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0013-roman-to-integer) |
+| [0076-minimum-window-substring](https://github.com/Anushaanil/DSA_Practice/tree/master/0076-minimum-window-substring) |
 | [0128-longest-consecutive-sequence](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Hashmap/0128-longest-consecutive-sequence) |
 | [0169-majority-element](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0169-majority-element) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0380-insert-delete-getrandom-o1) |
@@ -84,6 +86,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0169-majority-element) |
 | [0274-h-index](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0274-h-index) |
+| [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Anushaanil/DSA_Practice/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -117,6 +120,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0122-best-time-to-buy-and-sell-stock-ii) |
 | [0134-gas-station](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0134-gas-station) |
 | [0135-candy](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0135-candy) |
+| [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Anushaanil/DSA_Practice/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 ## Counting Sort
 |  |
 | ------- |
@@ -139,6 +143,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0058-length-of-last-word](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0058-length-of-last-word) |
 | [0068-text-justification](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0068-text-justification) |
+| [0076-minimum-window-substring](https://github.com/Anushaanil/DSA_Practice/tree/master/0076-minimum-window-substring) |
 | [0151-reverse-words-in-a-string](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0151-reverse-words-in-a-string) |
 ## Trie
 |  |
@@ -156,6 +161,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sliding Window
 |  |
 | ------- |
+| [0076-minimum-window-substring](https://github.com/Anushaanil/DSA_Practice/tree/master/0076-minimum-window-substring) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Anushaanil/DSA_Practice/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 ## Linked List
 |  |
@@ -168,22 +174,26 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Anushaanil/DSA_Practice/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/Anushaanil/DSA_Practice/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/Anushaanil/DSA_Practice/tree/master/0129-sum-root-to-leaf-numbers) |
+| [0637-average-of-levels-in-binary-tree](https://github.com/Anushaanil/DSA_Practice/tree/master/0637-average-of-levels-in-binary-tree) |
 ## Depth-First Search
 |  |
 | ------- |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Anushaanil/DSA_Practice/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/Anushaanil/DSA_Practice/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/Anushaanil/DSA_Practice/tree/master/0129-sum-root-to-leaf-numbers) |
+| [0637-average-of-levels-in-binary-tree](https://github.com/Anushaanil/DSA_Practice/tree/master/0637-average-of-levels-in-binary-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/Anushaanil/DSA_Practice/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
+| [0637-average-of-levels-in-binary-tree](https://github.com/Anushaanil/DSA_Practice/tree/master/0637-average-of-levels-in-binary-tree) |
 ## Binary Tree
 |  |
 | ------- |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Anushaanil/DSA_Practice/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/Anushaanil/DSA_Practice/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/Anushaanil/DSA_Practice/tree/master/0129-sum-root-to-leaf-numbers) |
+| [0637-average-of-levels-in-binary-tree](https://github.com/Anushaanil/DSA_Practice/tree/master/0637-average-of-levels-in-binary-tree) |
 ## Matrix
 |  |
 | ------- |
