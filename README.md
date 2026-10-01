@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0013-roman-to-integer) |
 | [0076-minimum-window-substring](https://github.com/Anushaanil/DSA_Practice/tree/master/0076-minimum-window-substring) |
 | [0128-longest-consecutive-sequence](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Hashmap/0128-longest-consecutive-sequence) |
+| [0146-lru-cache](https://github.com/Anushaanil/DSA_Practice/tree/master/0146-lru-cache) |
 | [0169-majority-element](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0169-majority-element) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0380-insert-delete-getrandom-o1) |
 | [0496-next-greater-element-i](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/stacks/0496-next-greater-element-i) |
@@ -56,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/Anushaanil/DSA_Practice/tree/master/0146-lru-cache) |
 | [0225-implement-stack-using-queues](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/stacks/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/stacks/0232-implement-queue-using-stacks) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0380-insert-delete-getrandom-o1) |
@@ -171,6 +173,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Anushaanil/DSA_Practice/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/Anushaanil/DSA_Practice/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
+| [0146-lru-cache](https://github.com/Anushaanil/DSA_Practice/tree/master/0146-lru-cache) |
 ## Tree
 |  |
 | ------- |
@@ -205,4 +208,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0224-basic-calculator](https://github.com/Anushaanil/DSA_Practice/tree/master/0224-basic-calculator) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/Anushaanil/DSA_Practice/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
