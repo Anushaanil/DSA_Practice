@@ -49,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0042-trapping-rain-water) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Anushaanil/DSA_Practice/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0173-binary-search-tree-iterator](https://github.com/Anushaanil/DSA_Practice/tree/master/0173-binary-search-tree-iterator) |
 | [0224-basic-calculator](https://github.com/Anushaanil/DSA_Practice/tree/master/0224-basic-calculator) |
 | [0225-implement-stack-using-queues](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/stacks/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/stacks/0232-implement-queue-using-stacks) |
@@ -58,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/Anushaanil/DSA_Practice/tree/master/0146-lru-cache) |
+| [0173-binary-search-tree-iterator](https://github.com/Anushaanil/DSA_Practice/tree/master/0173-binary-search-tree-iterator) |
 | [0225-implement-stack-using-queues](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/stacks/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/stacks/0232-implement-queue-using-stacks) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0380-insert-delete-getrandom-o1) |
@@ -184,6 +186,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Anushaanil/DSA_Practice/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/Anushaanil/DSA_Practice/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/Anushaanil/DSA_Practice/tree/master/0129-sum-root-to-leaf-numbers) |
+| [0173-binary-search-tree-iterator](https://github.com/Anushaanil/DSA_Practice/tree/master/0173-binary-search-tree-iterator) |
 | [0199-binary-tree-right-side-view](https://github.com/Anushaanil/DSA_Practice/tree/master/0199-binary-tree-right-side-view) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Anushaanil/DSA_Practice/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Anushaanil/DSA_Practice/tree/master/0530-minimum-absolute-difference-in-bst) |
@@ -213,6 +216,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Anushaanil/DSA_Practice/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/Anushaanil/DSA_Practice/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/Anushaanil/DSA_Practice/tree/master/0129-sum-root-to-leaf-numbers) |
+| [0173-binary-search-tree-iterator](https://github.com/Anushaanil/DSA_Practice/tree/master/0173-binary-search-tree-iterator) |
 | [0199-binary-tree-right-side-view](https://github.com/Anushaanil/DSA_Practice/tree/master/0199-binary-tree-right-side-view) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Anushaanil/DSA_Practice/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Anushaanil/DSA_Practice/tree/master/0530-minimum-absolute-difference-in-bst) |
@@ -241,5 +245,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search Tree
 |  |
 | ------- |
+| [0173-binary-search-tree-iterator](https://github.com/Anushaanil/DSA_Practice/tree/master/0173-binary-search-tree-iterator) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Anushaanil/DSA_Practice/tree/master/0530-minimum-absolute-difference-in-bst) |
+## Iterator
+|  |
+| ------- |
+| [0173-binary-search-tree-iterator](https://github.com/Anushaanil/DSA_Practice/tree/master/0173-binary-search-tree-iterator) |
 <!---LeetCode Topics End-->
