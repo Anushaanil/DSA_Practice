@@ -9,27 +9,25 @@ class Solution:
         # inorder traversal in BST gives sorted order, 
         # add them to list and return it's kth element as soon as found.
         ans = None
-        elements = []
+        count = k
         
-        def inorder_traversal(node, k):
-            nonlocal ans, elements
+        def inorder_traversal(node):
+            nonlocal ans, count
 
             if not node:
                 return
             
             # left node first
+            inorder_traversal(node.left)
+            count-=1
 
-            if node.left: 
-                inorder_traversal(node.left, k)
-                
-            elements.append(node.val)
-
-            if len(elements) == k:
-                ans = elements[-1]
+            # process the current node root
+            if count == 0:
+                ans = node.val
                 return
 
-            if node.right: 
-                inorder_traversal(node.right, k)
+            # move to the right
+            inorder_traversal(node.right)
 
-        inorder_traversal(root, k)
+        inorder_traversal(root)
         return ans
