@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Hashmap/0128-longest-consecutive-sequence) |
 | [0134-gas-station](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0134-gas-station) |
 | [0135-candy](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0135-candy) |
+| [0136-single-number](https://github.com/Anushaanil/DSA_Practice/tree/master/0136-single-number) |
 | [0169-majority-element](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0169-majority-element) |
 | [0189-rotate-array](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0189-rotate-array) |
 | [0238-product-of-array-except-self](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0238-product-of-array-except-self) |
@@ -270,4 +271,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Anushaanil/DSA_Practice/tree/master/0124-binary-tree-maximum-path-sum) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0136-single-number](https://github.com/Anushaanil/DSA_Practice/tree/master/0136-single-number) |
 <!---LeetCode Topics End-->
