@@ -108,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0012-integer-to-roman](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0013-roman-to-integer) |
 | [0066-plus-one](https://github.com/Anushaanil/DSA_Practice/tree/master/0066-plus-one) |
+| [0067-add-binary](https://github.com/Anushaanil/DSA_Practice/tree/master/0067-add-binary) |
 | [0189-rotate-array](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0189-rotate-array) |
 | [0224-basic-calculator](https://github.com/Anushaanil/DSA_Practice/tree/master/0224-basic-calculator) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0380-insert-delete-getrandom-o1) |
@@ -151,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0014-longest-common-prefix](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0014-longest-common-prefix) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0058-length-of-last-word](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0058-length-of-last-word) |
+| [0067-add-binary](https://github.com/Anushaanil/DSA_Practice/tree/master/0067-add-binary) |
 | [0068-text-justification](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0068-text-justification) |
 | [0076-minimum-window-substring](https://github.com/Anushaanil/DSA_Practice/tree/master/0076-minimum-window-substring) |
 | [0151-reverse-words-in-a-string](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0151-reverse-words-in-a-string) |
@@ -162,6 +164,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/Anushaanil/DSA_Practice/tree/master/0067-add-binary) |
 | [0068-text-justification](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0068-text-justification) |
 | [0289-game-of-life](https://github.com/Anushaanil/DSA_Practice/tree/master/0289-game-of-life) |
 ## String Matching
@@ -274,5 +277,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/Anushaanil/DSA_Practice/tree/master/0067-add-binary) |
 | [0136-single-number](https://github.com/Anushaanil/DSA_Practice/tree/master/0136-single-number) |
 <!---LeetCode Topics End-->
