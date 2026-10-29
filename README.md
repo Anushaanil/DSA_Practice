@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0055-jump-game) |
 | [0066-plus-one](https://github.com/Anushaanil/DSA_Practice/tree/master/0066-plus-one) |
 | [0068-text-justification](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0068-text-justification) |
+| [0074-search-a-2d-matrix](https://github.com/Anushaanil/DSA_Practice/tree/master/0074-search-a-2d-matrix) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0080-remove-duplicates-from-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0088-merge-sorted-array) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0121-best-time-to-buy-and-sell-stock) |
@@ -246,6 +247,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0074-search-a-2d-matrix](https://github.com/Anushaanil/DSA_Practice/tree/master/0074-search-a-2d-matrix) |
 | [0289-game-of-life](https://github.com/Anushaanil/DSA_Practice/tree/master/0289-game-of-life) |
 ## Recursion
 |  |
@@ -268,6 +270,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search Tree
 |  |
 | ------- |
+| [0074-search-a-2d-matrix](https://github.com/Anushaanil/DSA_Practice/tree/master/0074-search-a-2d-matrix) |
 | [0098-validate-binary-search-tree](https://github.com/Anushaanil/DSA_Practice/tree/master/0098-validate-binary-search-tree) |
 | [0173-binary-search-tree-iterator](https://github.com/Anushaanil/DSA_Practice/tree/master/0173-binary-search-tree-iterator) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Anushaanil/DSA_Practice/tree/master/0230-kth-smallest-element-in-a-bst) |
