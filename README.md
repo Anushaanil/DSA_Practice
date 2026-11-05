@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0274-h-index](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0274-h-index) |
 | [0289-game-of-life](https://github.com/Anushaanil/DSA_Practice/tree/master/0289-game-of-life) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0380-insert-delete-getrandom-o1) |
+| [0399-evaluate-division](https://github.com/Anushaanil/DSA_Practice/tree/master/0399-evaluate-division) |
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Anushaanil/DSA_Practice/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0496-next-greater-element-i](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/stacks/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/stacks/0503-next-greater-element-ii) |
@@ -53,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0128-longest-consecutive-sequence](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Hashmap/0128-longest-consecutive-sequence) |
 | [0130-surrounded-regions](https://github.com/Anushaanil/DSA_Practice/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/Anushaanil/DSA_Practice/tree/master/0200-number-of-islands) |
+| [0399-evaluate-division](https://github.com/Anushaanil/DSA_Practice/tree/master/0399-evaluate-division) |
 ## Stack
 |  |
 | ------- |
@@ -170,6 +172,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0076-minimum-window-substring](https://github.com/Anushaanil/DSA_Practice/tree/master/0076-minimum-window-substring) |
 | [0151-reverse-words-in-a-string](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0151-reverse-words-in-a-string) |
 | [0224-basic-calculator](https://github.com/Anushaanil/DSA_Practice/tree/master/0224-basic-calculator) |
+| [0399-evaluate-division](https://github.com/Anushaanil/DSA_Practice/tree/master/0399-evaluate-division) |
 ## Trie
 |  |
 | ------- |
@@ -228,6 +231,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/Anushaanil/DSA_Practice/tree/master/0200-number-of-islands) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/Anushaanil/DSA_Practice/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/Anushaanil/DSA_Practice/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0399-evaluate-division](https://github.com/Anushaanil/DSA_Practice/tree/master/0399-evaluate-division) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Anushaanil/DSA_Practice/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Anushaanil/DSA_Practice/tree/master/0637-average-of-levels-in-binary-tree) |
 ## Breadth-First Search
@@ -240,6 +244,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0133-clone-graph](https://github.com/Anushaanil/DSA_Practice/tree/master/0133-clone-graph) |
 | [0199-binary-tree-right-side-view](https://github.com/Anushaanil/DSA_Practice/tree/master/0199-binary-tree-right-side-view) |
 | [0200-number-of-islands](https://github.com/Anushaanil/DSA_Practice/tree/master/0200-number-of-islands) |
+| [0399-evaluate-division](https://github.com/Anushaanil/DSA_Practice/tree/master/0399-evaluate-division) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Anushaanil/DSA_Practice/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Anushaanil/DSA_Practice/tree/master/0637-average-of-levels-in-binary-tree) |
 ## Binary Tree
@@ -314,4 +319,17 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0133-clone-graph](https://github.com/Anushaanil/DSA_Practice/tree/master/0133-clone-graph) |
+| [0399-evaluate-division](https://github.com/Anushaanil/DSA_Practice/tree/master/0399-evaluate-division) |
+## Shortest Path
+|  |
+| ------- |
+| [0399-evaluate-division](https://github.com/Anushaanil/DSA_Practice/tree/master/0399-evaluate-division) |
+## Bellman–Ford Algorithm
+|  |
+| ------- |
+| [0399-evaluate-division](https://github.com/Anushaanil/DSA_Practice/tree/master/0399-evaluate-division) |
+## Floyd–Warshall Algorithm
+|  |
+| ------- |
+| [0399-evaluate-division](https://github.com/Anushaanil/DSA_Practice/tree/master/0399-evaluate-division) |
 <!---LeetCode Topics End-->
