@@ -35,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0452-minimum-number-of-arrows-to-burst-balloons](https://github.com/Anushaanil/DSA_Practice/tree/master/0452-minimum-number-of-arrows-to-burst-balloons) |
 | [0496-next-greater-element-i](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/stacks/0496-next-greater-element-i) |
 | [0503-next-greater-element-ii](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/stacks/0503-next-greater-element-ii) |
+| [0909-snakes-and-ladders](https://github.com/Anushaanil/DSA_Practice/tree/master/0909-snakes-and-ladders) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Anushaanil/DSA_Practice/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 ## Hash Table
 |  |
@@ -251,6 +252,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0399-evaluate-division](https://github.com/Anushaanil/DSA_Practice/tree/master/0399-evaluate-division) |
 | [0530-minimum-absolute-difference-in-bst](https://github.com/Anushaanil/DSA_Practice/tree/master/0530-minimum-absolute-difference-in-bst) |
 | [0637-average-of-levels-in-binary-tree](https://github.com/Anushaanil/DSA_Practice/tree/master/0637-average-of-levels-in-binary-tree) |
+| [0909-snakes-and-ladders](https://github.com/Anushaanil/DSA_Practice/tree/master/0909-snakes-and-ladders) |
 ## Binary Tree
 |  |
 | ------- |
@@ -275,6 +277,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0130-surrounded-regions](https://github.com/Anushaanil/DSA_Practice/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/Anushaanil/DSA_Practice/tree/master/0200-number-of-islands) |
 | [0289-game-of-life](https://github.com/Anushaanil/DSA_Practice/tree/master/0289-game-of-life) |
+| [0909-snakes-and-ladders](https://github.com/Anushaanil/DSA_Practice/tree/master/0909-snakes-and-ladders) |
 ## Recursion
 |  |
 | ------- |
