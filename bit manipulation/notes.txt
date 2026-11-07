@@ -1,0 +1,11 @@
+Bit Manipulation – Quick Pattern Recognition
+Problem clue	Think of
+Every element appears twice	XOR
+Every element appears three times	Bit count + modulo
+Binary addition	XOR + carry
+Reverse bit positions	Extract + append
+Count set bits	n & (n-1)
+AND across a range	Common prefix
+Need to inspect a particular bit	n & (1 << i)
+
+One important lesson: Don't memorise bitwise formulas blindly. Understand what each bit represents and what shifting does to its position.
