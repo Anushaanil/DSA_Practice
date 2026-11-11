@@ -2,8 +2,9 @@ class Solution:
     def ladderLength(self, beginWord: str, endWord: str, wordList: list[str]) -> int:
         q, visited = deque([beginWord]), {beginWord}
         words_len = 1
+        word_set = set(wordList)
 
-        if endWord not in wordList:
+        if endWord not in word_set:
             return 0
 
         while q:
@@ -16,18 +17,16 @@ class Solution:
                     return words_len
                 
                 # discover neighbors
-                for word in wordList:
-                    count = 0
-                    for char in range(len(word)):
-                        if word[char]!=curr_word[char]:
-                            count+=1
+                for j in range(len(curr_word)):
+                    for char in "abcdefghijklmnopqrstuvwxyz":
+                        if curr_word[j] == char:
+                            continue
 
-                        if count > 1:
-                            break
+                        mutated = curr_word[:j] + char + curr_word[j+1:]
 
-                    if count == 1 and word not in visited:
-                        visited.add(word)
-                        q.append(word)
+                        if mutated not in visited and mutated in word_set:
+                            visited.add(mutated)
+                            q.append(mutated)
             words_len +=1
 
         return 0
