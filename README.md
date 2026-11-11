@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0012-integer-to-roman](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0012-integer-to-roman) |
 | [0013-roman-to-integer](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0013-roman-to-integer) |
 | [0076-minimum-window-substring](https://github.com/Anushaanil/DSA_Practice/tree/master/0076-minimum-window-substring) |
+| [0127-word-ladder](https://github.com/Anushaanil/DSA_Practice/tree/master/0127-word-ladder) |
 | [0128-longest-consecutive-sequence](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Hashmap/0128-longest-consecutive-sequence) |
 | [0133-clone-graph](https://github.com/Anushaanil/DSA_Practice/tree/master/0133-clone-graph) |
 | [0146-lru-cache](https://github.com/Anushaanil/DSA_Practice/tree/master/0146-lru-cache) |
@@ -172,6 +173,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0067-add-binary](https://github.com/Anushaanil/DSA_Practice/tree/master/0067-add-binary) |
 | [0068-text-justification](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0068-text-justification) |
 | [0076-minimum-window-substring](https://github.com/Anushaanil/DSA_Practice/tree/master/0076-minimum-window-substring) |
+| [0127-word-ladder](https://github.com/Anushaanil/DSA_Practice/tree/master/0127-word-ladder) |
 | [0151-reverse-words-in-a-string](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0151-reverse-words-in-a-string) |
 | [0224-basic-calculator](https://github.com/Anushaanil/DSA_Practice/tree/master/0224-basic-calculator) |
 | [0399-evaluate-division](https://github.com/Anushaanil/DSA_Practice/tree/master/0399-evaluate-division) |
@@ -245,6 +247,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0102-binary-tree-level-order-traversal](https://github.com/Anushaanil/DSA_Practice/tree/master/0102-binary-tree-level-order-traversal) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/Anushaanil/DSA_Practice/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/Anushaanil/DSA_Practice/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
+| [0127-word-ladder](https://github.com/Anushaanil/DSA_Practice/tree/master/0127-word-ladder) |
 | [0130-surrounded-regions](https://github.com/Anushaanil/DSA_Practice/tree/master/0130-surrounded-regions) |
 | [0133-clone-graph](https://github.com/Anushaanil/DSA_Practice/tree/master/0133-clone-graph) |
 | [0199-binary-tree-right-side-view](https://github.com/Anushaanil/DSA_Practice/tree/master/0199-binary-tree-right-side-view) |
@@ -356,5 +359,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bidirectional Search
 |  |
 | ------- |
+| [0127-word-ladder](https://github.com/Anushaanil/DSA_Practice/tree/master/0127-word-ladder) |
 | [0433-minimum-genetic-mutation](https://github.com/Anushaanil/DSA_Practice/tree/master/0433-minimum-genetic-mutation) |
 <!---LeetCode Topics End-->
