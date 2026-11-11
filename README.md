@@ -48,6 +48,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0133-clone-graph](https://github.com/Anushaanil/DSA_Practice/tree/master/0133-clone-graph) |
 | [0146-lru-cache](https://github.com/Anushaanil/DSA_Practice/tree/master/0146-lru-cache) |
 | [0169-majority-element](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0169-majority-element) |
+| [0208-implement-trie-prefix-tree](https://github.com/Anushaanil/DSA_Practice/tree/master/0208-implement-trie-prefix-tree) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0380-insert-delete-getrandom-o1) |
 | [0433-minimum-genetic-mutation](https://github.com/Anushaanil/DSA_Practice/tree/master/0433-minimum-genetic-mutation) |
 | [0496-next-greater-element-i](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/stacks/0496-next-greater-element-i) |
@@ -74,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0146-lru-cache](https://github.com/Anushaanil/DSA_Practice/tree/master/0146-lru-cache) |
 | [0173-binary-search-tree-iterator](https://github.com/Anushaanil/DSA_Practice/tree/master/0173-binary-search-tree-iterator) |
+| [0208-implement-trie-prefix-tree](https://github.com/Anushaanil/DSA_Practice/tree/master/0208-implement-trie-prefix-tree) |
 | [0225-implement-stack-using-queues](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/stacks/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/stacks/0232-implement-queue-using-stacks) |
 | [0380-insert-delete-getrandom-o1](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0380-insert-delete-getrandom-o1) |
@@ -175,6 +177,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0076-minimum-window-substring](https://github.com/Anushaanil/DSA_Practice/tree/master/0076-minimum-window-substring) |
 | [0127-word-ladder](https://github.com/Anushaanil/DSA_Practice/tree/master/0127-word-ladder) |
 | [0151-reverse-words-in-a-string](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0151-reverse-words-in-a-string) |
+| [0208-implement-trie-prefix-tree](https://github.com/Anushaanil/DSA_Practice/tree/master/0208-implement-trie-prefix-tree) |
 | [0224-basic-calculator](https://github.com/Anushaanil/DSA_Practice/tree/master/0224-basic-calculator) |
 | [0399-evaluate-division](https://github.com/Anushaanil/DSA_Practice/tree/master/0399-evaluate-division) |
 | [0433-minimum-genetic-mutation](https://github.com/Anushaanil/DSA_Practice/tree/master/0433-minimum-genetic-mutation) |
@@ -182,6 +185,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0014-longest-common-prefix) |
+| [0208-implement-trie-prefix-tree](https://github.com/Anushaanil/DSA_Practice/tree/master/0208-implement-trie-prefix-tree) |
 ## Simulation
 |  |
 | ------- |
