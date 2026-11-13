@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0169-majority-element) |
 | [0189-rotate-array](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0189-rotate-array) |
 | [0200-number-of-islands](https://github.com/Anushaanil/DSA_Practice/tree/master/0200-number-of-islands) |
+| [0212-word-search-ii](https://github.com/Anushaanil/DSA_Practice/tree/master/0212-word-search-ii) |
 | [0238-product-of-array-except-self](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0238-product-of-array-except-self) |
 | [0274-h-index](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0274-h-index) |
 | [0289-game-of-life](https://github.com/Anushaanil/DSA_Practice/tree/master/0289-game-of-life) |
@@ -180,6 +181,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0151-reverse-words-in-a-string](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0151-reverse-words-in-a-string) |
 | [0208-implement-trie-prefix-tree](https://github.com/Anushaanil/DSA_Practice/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/Anushaanil/DSA_Practice/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0212-word-search-ii](https://github.com/Anushaanil/DSA_Practice/tree/master/0212-word-search-ii) |
 | [0224-basic-calculator](https://github.com/Anushaanil/DSA_Practice/tree/master/0224-basic-calculator) |
 | [0399-evaluate-division](https://github.com/Anushaanil/DSA_Practice/tree/master/0399-evaluate-division) |
 | [0433-minimum-genetic-mutation](https://github.com/Anushaanil/DSA_Practice/tree/master/0433-minimum-genetic-mutation) |
@@ -189,6 +191,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0014-longest-common-prefix](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0014-longest-common-prefix) |
 | [0208-implement-trie-prefix-tree](https://github.com/Anushaanil/DSA_Practice/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/Anushaanil/DSA_Practice/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0212-word-search-ii](https://github.com/Anushaanil/DSA_Practice/tree/master/0212-word-search-ii) |
 ## Simulation
 |  |
 | ------- |
@@ -290,6 +293,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0074-search-a-2d-matrix](https://github.com/Anushaanil/DSA_Practice/tree/master/0074-search-a-2d-matrix) |
 | [0130-surrounded-regions](https://github.com/Anushaanil/DSA_Practice/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/Anushaanil/DSA_Practice/tree/master/0200-number-of-islands) |
+| [0212-word-search-ii](https://github.com/Anushaanil/DSA_Practice/tree/master/0212-word-search-ii) |
 | [0289-game-of-life](https://github.com/Anushaanil/DSA_Practice/tree/master/0289-game-of-life) |
 | [0909-snakes-and-ladders](https://github.com/Anushaanil/DSA_Practice/tree/master/0909-snakes-and-ladders) |
 ## Recursion
@@ -369,4 +373,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0127-word-ladder](https://github.com/Anushaanil/DSA_Practice/tree/master/0127-word-ladder) |
 | [0433-minimum-genetic-mutation](https://github.com/Anushaanil/DSA_Practice/tree/master/0433-minimum-genetic-mutation) |
+## Backtracking
+|  |
+| ------- |
+| [0212-word-search-ii](https://github.com/Anushaanil/DSA_Practice/tree/master/0212-word-search-ii) |
 <!---LeetCode Topics End-->
