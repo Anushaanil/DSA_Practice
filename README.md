@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0027-remove-element](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0027-remove-element) |
 | [0042-trapping-rain-water](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0045-jump-game-ii) |
+| [0046-permutations](https://github.com/Anushaanil/DSA_Practice/tree/master/0046-permutations) |
 | [0055-jump-game](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0055-jump-game) |
 | [0066-plus-one](https://github.com/Anushaanil/DSA_Practice/tree/master/0066-plus-one) |
 | [0068-text-justification](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0068-text-justification) |
@@ -379,6 +380,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Anushaanil/DSA_Practice/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0046-permutations](https://github.com/Anushaanil/DSA_Practice/tree/master/0046-permutations) |
 | [0077-combinations](https://github.com/Anushaanil/DSA_Practice/tree/master/0077-combinations) |
 | [0212-word-search-ii](https://github.com/Anushaanil/DSA_Practice/tree/master/0212-word-search-ii) |
 <!---LeetCode Topics End-->
