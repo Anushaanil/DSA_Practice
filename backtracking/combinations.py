@@ -5,7 +5,6 @@ class Solution:
                 ans.append(res.copy())
                 return
             
-            
             for i in range(cur_ind, n+1):
                 
                 res.append(i)
