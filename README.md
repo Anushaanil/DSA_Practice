@@ -140,6 +140,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Dynamic Programming
 |  |
 | ------- |
+| [0022-generate-parentheses](https://github.com/Anushaanil/DSA_Practice/tree/master/0022-generate-parentheses) |
 | [0042-trapping-rain-water](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0055-jump-game) |
@@ -176,6 +177,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0013-roman-to-integer) |
 | [0014-longest-common-prefix](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0014-longest-common-prefix) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Anushaanil/DSA_Practice/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0022-generate-parentheses](https://github.com/Anushaanil/DSA_Practice/tree/master/0022-generate-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0058-length-of-last-word](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0058-length-of-last-word) |
 | [0067-add-binary](https://github.com/Anushaanil/DSA_Practice/tree/master/0067-add-binary) |
@@ -381,8 +383,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Anushaanil/DSA_Practice/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0022-generate-parentheses](https://github.com/Anushaanil/DSA_Practice/tree/master/0022-generate-parentheses) |
 | [0039-combination-sum](https://github.com/Anushaanil/DSA_Practice/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/Anushaanil/DSA_Practice/tree/master/0046-permutations) |
 | [0077-combinations](https://github.com/Anushaanil/DSA_Practice/tree/master/0077-combinations) |
 | [0212-word-search-ii](https://github.com/Anushaanil/DSA_Practice/tree/master/0212-word-search-ii) |
+## Bracket Sequences
+|  |
+| ------- |
+| [0022-generate-parentheses](https://github.com/Anushaanil/DSA_Practice/tree/master/0022-generate-parentheses) |
 <!---LeetCode Topics End-->
