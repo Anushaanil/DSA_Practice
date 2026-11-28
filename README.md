@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0066-plus-one](https://github.com/Anushaanil/DSA_Practice/tree/master/0066-plus-one) |
 | [0068-text-justification](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0068-text-justification) |
 | [0074-search-a-2d-matrix](https://github.com/Anushaanil/DSA_Practice/tree/master/0074-search-a-2d-matrix) |
+| [0079-word-search](https://github.com/Anushaanil/DSA_Practice/tree/master/0079-word-search) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0080-remove-duplicates-from-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0088-merge-sorted-array) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/Anushaanil/DSA_Practice/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
@@ -183,6 +184,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0067-add-binary](https://github.com/Anushaanil/DSA_Practice/tree/master/0067-add-binary) |
 | [0068-text-justification](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0068-text-justification) |
 | [0076-minimum-window-substring](https://github.com/Anushaanil/DSA_Practice/tree/master/0076-minimum-window-substring) |
+| [0079-word-search](https://github.com/Anushaanil/DSA_Practice/tree/master/0079-word-search) |
 | [0127-word-ladder](https://github.com/Anushaanil/DSA_Practice/tree/master/0127-word-ladder) |
 | [0151-reverse-words-in-a-string](https://github.com/Anushaanil/DSA_Practice/tree/master/LeetCode%20Submissions/Arrays_Strings/0151-reverse-words-in-a-string) |
 | [0208-implement-trie-prefix-tree](https://github.com/Anushaanil/DSA_Practice/tree/master/0208-implement-trie-prefix-tree) |
@@ -241,6 +243,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0079-word-search](https://github.com/Anushaanil/DSA_Practice/tree/master/0079-word-search) |
 | [0098-validate-binary-search-tree](https://github.com/Anushaanil/DSA_Practice/tree/master/0098-validate-binary-search-tree) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Anushaanil/DSA_Practice/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0117-populating-next-right-pointers-in-each-node-ii](https://github.com/Anushaanil/DSA_Practice/tree/master/0117-populating-next-right-pointers-in-each-node-ii) |
@@ -297,6 +300,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/Anushaanil/DSA_Practice/tree/master/0074-search-a-2d-matrix) |
+| [0079-word-search](https://github.com/Anushaanil/DSA_Practice/tree/master/0079-word-search) |
 | [0130-surrounded-regions](https://github.com/Anushaanil/DSA_Practice/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/Anushaanil/DSA_Practice/tree/master/0200-number-of-islands) |
 | [0212-word-search-ii](https://github.com/Anushaanil/DSA_Practice/tree/master/0212-word-search-ii) |
@@ -387,6 +391,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0039-combination-sum](https://github.com/Anushaanil/DSA_Practice/tree/master/0039-combination-sum) |
 | [0046-permutations](https://github.com/Anushaanil/DSA_Practice/tree/master/0046-permutations) |
 | [0077-combinations](https://github.com/Anushaanil/DSA_Practice/tree/master/0077-combinations) |
+| [0079-word-search](https://github.com/Anushaanil/DSA_Practice/tree/master/0079-word-search) |
 | [0212-word-search-ii](https://github.com/Anushaanil/DSA_Practice/tree/master/0212-word-search-ii) |
 ## Bracket Sequences
 |  |
